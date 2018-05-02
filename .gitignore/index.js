@@ -416,7 +416,7 @@ bot.on("message", async function(message) {
                 limit: messagecount
             }).then(messages => message.channel.bulkDelete(messagecount));
                         message.delete()
-         message.reply("Tu veut s'avoir comment avoir un salon log ? Crée un salon nommé : 📄logs📄 si tu a déjà un salon log contacte mon créateur pour qu´il me dise c´est le quel");
+         message.reply("Tu veut s avoir comment avoir un salon log ? Crée un salon nommé : 📄logs📄 si tu a déjà un salon log contacte mon créateur pour qu'il me dise c'est le quel");
          break; 
      
         default:
