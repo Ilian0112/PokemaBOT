@@ -223,7 +223,7 @@ bot.on("message", async function(message) {
                         message.delete()
         var embed = new Discord.RichEmbed()
             .addField("Info", "Il y a deux façon d'utiliser ces commandes, la façon avec la mention everyone et la façon sans, pour cela si vous voulez utiliser la mentions everyone marquer la commandes dans le salon ou le message va apparaître et en cas contraitre dans le salon #staff-command Cette info ne s'applique pas au Sondage car chaque Sondage doit avoir une mention !")
-             .addField(:new", "Cette commande permet de faire un message dans le salon 🔔nouveauté.")
+             .addField(":new", "Cette commande permet de faire un message dans le salon 🔔nouveauté.")
              .addField(":sondage", "Cette commande permet de faire un message dans le salon 🔔sondage. Merci d'utiliser cette commande lors de la créations d'un nouveau sondage.")
             .setColor("#cc0000")
             .setFooter("Aide du staff.")
